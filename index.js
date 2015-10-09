@@ -4,7 +4,7 @@ var patch = require('virtual-dom/patch');
 var createElement = require('virtual-dom/create-element');
 
 function render(num) {
-  return h('div'), [String(count)];
+  return h('div', [String(num)]);
 }
 
 var num = 23;
